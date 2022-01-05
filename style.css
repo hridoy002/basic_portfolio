@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.top-sec{
+   display: flex;
+   background-image: url(img/top-banner.png);
+   background-repeat: no-repeat;
+}
+.half{
+    width: 50%;
+    padding-left: 5%;
+  
+}
+h1{
+    font-size: 60px;
+}
+h3{
+    font-size: 40px;
+}
+
+.half p{
+    font-size: 20px;
+}
+.half img{
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.button{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    background-image:linear-gradient(red,tomato) ;
+    padding: 12px 35px;
+    border-radius: 5px;
+    padding-top: 10px;
+
+}
+
+/*---------------------------------------------*/
+
+.dreambig{
+    margin-top: 10%;
+    display: flex;
+    background-image: url(./img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dreamimg {
+    width: 40%;
+    margin-left: 60px;
+}
+.dreamimg img{
+   max-width: 378px;
+ 
+  
+}
+
+.dreamcontent{
+   text-align: justify;
+   margin-left: 120px;
+   padding-left: 40px;
+   width: 40%;
+}
+.dreamcontent a{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    background-image:linear-gradient(red,tomato) ;
+    padding: 12px 35px;
+    border-radius: 5px;
+    padding-top: 10px;
+
+}
+/*-----------------------------------------------*/
+.experience-area{
+    margin-top: 10%;
+    background-image: url(./img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+   
+}
+.ex-h1{
+    margin-left:56px;
+    display: block;
+}
+
+.experience-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    margin-right: 5%;
+    
+}
+.fullastack{
+    max-width:40%;
+    padding: 40px;
+    box-shadow:10px 10px 50px  gray;
+   background-color: ghostwhite;
+   border-image: linear-gradient(orange, orangered);
+   margin-left: 5%;
+  
+}
+.juniordeveloper{
+    max-width:40%;
+    padding: 40px;
+    box-shadow:10px 10px 50px  gray;
+   background-color: ghostwhite;
+   border-left: 2px solid;
+   border-image: linear-gradient(orange, orangered);
+   margin-left: 5%;
+  
+}
+
+footer{
+    margin-top: 100px;
+}
+footer p{
+    text-align: center;
+    color: gray;
+}
